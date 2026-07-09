@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgba(20%, 50%, 30%, 0,5);
+}
+/* liniaire gradin a utiliser apres*/
+.hero{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    flex-direction:column;
+    justify-content: space-between;
+
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: end; 
+    list-style: none;
+}
+.btn-action{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-image: url(téléchargement\ \(13\).jpg);
+    background-size: cover;
+    height: 80px;
+    gap: 30px;
+}
+.btn-action :first-child{
+    display: flex;
+    justify-content: center;
+    
+}
+.page{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.story{
+    margin: 20px;
+    font-size: 20px;
+    animation: translate 10s ease-in-out infinite;
+    background-color: bisque;
+}
+@keyframes translate{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translatex(75px);
+    }
+}
